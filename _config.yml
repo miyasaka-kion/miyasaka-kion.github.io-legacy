@@ -1,8 +1,8 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: Lord Kion's Territory
+description: "Kion's blog"
 author:
-  name: "Kion-Miyasaka"
-  email: "someone@somewebsite.somedomain"
+  name: "Yilin-Liao"
+  email: "k@declspec.cloud"
   url: "https://www.declspec.cloud"
 
 baseurl: /
@@ -34,4 +34,6 @@ year : "2017"
 collections:
   maths:
     output: true
+    permalink: /:collection/:name
+
 
