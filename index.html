@@ -10,4 +10,8 @@ layout: default
           <p>{{ post.content | strip_html | truncatewords:50 }}</p>
       </li>
     {% endfor %}
+
+  {% for album in site.maths %}
+  <h2>{{ album.title }}</h2>
+  {% endfor %}
 </ul>

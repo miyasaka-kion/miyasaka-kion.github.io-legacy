@@ -30,3 +30,8 @@ plugins:
 # Custom variables
 owner : "Kion Miyasaka  "
 year : "2017"
+
+collections:
+  maths:
+    output: true
+

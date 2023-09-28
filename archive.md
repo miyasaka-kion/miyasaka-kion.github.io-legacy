@@ -13,7 +13,7 @@ title: Archive
     {% else %}  
         <h3>{{ firstpostyear }}</h3>
     {% endif %}
-
+    
     {%for post in site.posts %}
       {% unless post.next %}
         <ul>
@@ -33,6 +33,5 @@ title: Archive
         </li>
     {% endfor %}
     </ul>
-
   {% endif %}
 </section>
