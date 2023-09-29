@@ -1,6 +1,5 @@
 ---
 title: Universal reference
-layout: page
 categories: cpp
 ---
 

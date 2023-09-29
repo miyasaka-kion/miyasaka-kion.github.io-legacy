@@ -1,6 +1,6 @@
 ---
 title: Fast inverse square root
-categories: maths
+categories: maths, dev
 tag: mathtag
 ---
 

@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Visual Studio - Workspace file management
-categories: cpp, dev
+title: "Visual Studio - Workspace file management"
+categories: cpp
 ---
 
 
