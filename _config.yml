@@ -32,7 +32,7 @@ owner : "Y. Liao"
 year : "2017"
 
 collections:
-  maths:
+  rambling:
     output: true
     permalink: /:collection/:name
 
