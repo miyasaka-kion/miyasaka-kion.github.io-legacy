@@ -1,4 +1,4 @@
-title: Lord Kion's Territory
+title: "0x7FFFFFFF"
 description: "Kion's blog"
 author:
   name: "Yilin-Liao"
@@ -19,7 +19,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "pages"
 
 future: true
 plugins:
@@ -36,4 +36,7 @@ collections:
     output: true
     permalink: /:collection/:name
 
-
+defaults:
+  - 
+    values:
+      layout: "page"

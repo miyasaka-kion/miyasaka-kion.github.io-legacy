@@ -4,13 +4,14 @@ title: Mathematics
 ---
 
 <section>
-  <h1>{{ page.title }}</h1>
-
-  <ul>
-    {% for item in site.maths %}
-        <li>
-          <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-  </ul>
+<h1>{{ page.title }}</h1>
+<ul>
+{% for post in site.maths %}
+  {% if post.categories contains 'maths' %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
 </section>
