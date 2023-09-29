@@ -57,7 +57,16 @@ header {
 }
 
 .header-links {
-  text-align: center;
+  text-align: left;
+}
+
+.header-text {
+  text-align: left;
+  text-decoration: none;
+}
+
+.left-align {
+  text-align: left;
 }
 
 .header-link {

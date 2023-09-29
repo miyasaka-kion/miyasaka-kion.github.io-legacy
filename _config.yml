@@ -1,7 +1,7 @@
 title: "0x7FFFFFFF"
 description: "Kion's blog"
 author:
-  name: "Yilin-Liao"
+  name: "Kion-Miyasaka"
   email: "k@declspec.cloud"
   url: "https://www.declspec.cloud"
 
@@ -28,7 +28,7 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "Kion Miyasaka  "
+owner : "Y. Liao"
 year : "2017"
 
 collections:
